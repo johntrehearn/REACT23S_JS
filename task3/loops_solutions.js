@@ -62,6 +62,9 @@ console.log('There was', even, 'even numbers');
 let input;
 let sum = 0;
 let count = 0;
+// git example :)
+saome moresff sdasdasa
+dasdasdas
 
 while (input !== 0) {
   input = parseFloat(prompt('enter a number'));
