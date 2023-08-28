@@ -69,9 +69,11 @@ while (input !== 0) {
   count++;
 }
 
-console.log(sum / count - 1);
+console.log(sum / (count - 1));
 
 /* 6. Make a program that asks 25 numbers form the user. In the end program prints out average of the numbers. */
+
+
 
 /* 7. Make a program that ask first one number from the user. After that the program asks: ”Do you want to continue giving numbers?(y/n)”. If user answers y, the program continues to ask another number. If user answers n, program ends. In the end program prints out average of the numbers. */
 
