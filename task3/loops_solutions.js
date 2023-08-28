@@ -20,6 +20,14 @@ for (let i = 2; i < 100; i += 2) {
 }
 console.log(answer);
 
+// shorter version of same solution:
+
+let answer = '';
+for (let i = 2; i <= 98; i += 2) {
+  answer += i + " " + (100 - i) + " ";
+}
+console.log(answer);
+
 /* 3. Make a program that asks repeatedly from the user the distance (km) and time (h) and calculates average speed. The program ends when user gives 0 for the distance. (After getting 0, the program does not ask anything from the user.) */
 
 let distance, time;
