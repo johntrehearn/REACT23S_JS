@@ -41,14 +41,14 @@ const pizzaOrder = () => {
     }
   })
   if (toppingsResult.length > 4) {
-    price += (toppingsResult.length - 4) * 0.5
+    price += (toppingsResult.length - 4) * 0.50
   }
 
   if (deliveryResult === "home") {
     price += 5
   }
 
-  order_price.textContent = price
+  order_price.textContent = price.toFixed(2)
 }
 
 form.addEventListener('input', pizzaOrder)
