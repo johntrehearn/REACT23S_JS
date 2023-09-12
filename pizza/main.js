@@ -10,7 +10,7 @@ const pizzaOrder = () => {
   let customerName = customer.value
   let sizeResult = ''
   let toppingsResult = []
-  let price = 7.50;
+  let price = 0;
 
 
   size.forEach(item => {
