@@ -11,6 +11,7 @@ const pizzaOrder = () => {
   let sizeResult = ''
   let toppingsResult = []
   let price = 0;
+  let deliveryResult = delivery.options[delivery.selectedIndex].value
 
 
   size.forEach(item => {
@@ -41,6 +42,10 @@ const pizzaOrder = () => {
   })
   if (toppingsResult.length > 4) {
     price += (toppingsResult.length - 4) * 0.5
+  }
+
+  if (deliveryResult === "home") {
+    price += 5
   }
 
   order_price.textContent = price
