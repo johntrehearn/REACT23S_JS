@@ -19,6 +19,9 @@ footer,
 header {
   padding: 1rem;
 }
+section {
+  scroll-margin-top: 60px;
+}
 
 p {
   margin: 0.5rem 0;
