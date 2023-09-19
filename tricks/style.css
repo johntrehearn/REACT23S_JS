@@ -33,3 +33,21 @@ header {
 li {
   display: inline-block;
 }
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 0.5rem 1rem;
+  background-color: orange;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+}
+
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
