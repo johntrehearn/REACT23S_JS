@@ -74,9 +74,13 @@ li {
   left: 0;
   height: 100vh;
   width: 100vw;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
+}
+
+.overlay.visible {
+  display: flex;
 }
 .modal {
   background-color: white;
