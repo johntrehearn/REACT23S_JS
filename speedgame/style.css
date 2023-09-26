@@ -32,4 +32,11 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 1rem;
+  pointer-events: none;
+}
+
+.circle.active {
+  background-color: tomato;
+  background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/stylized-fox-i-sipporah-art-and-illustration.jpg');
+  background-size: cover;
 }
